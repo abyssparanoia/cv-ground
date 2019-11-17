@@ -1,0 +1,39 @@
+.DS_Store
+*.pyc
+bin/
+include/
+lib/
+lib64
+share/
+__pycache__/
+
+# pycharm
+.idea/
+
+# vscode
+.vscode/
+
+# docker
+mysql/data/
+
+# pipenv
+.venv
+node_modules
+
+serviceAccount.json
+
+# model
+**/frcnn/models/**
+!**/frcnn/models/README.md
+
+## jupyter
+*.ipynb
+
+## image
+*.jpg
+*.jpeg
+*.JPEG
+*.JPG
+*.png
+input/*
+result/*
